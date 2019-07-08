@@ -47,6 +47,10 @@ Software Engineering](https://www.amazon.com/Mythical-Man-Month-Software-Enginee
 3. Slide 13:
 "Codeforces has 256MB stack":  See M. Mirzayanov,
 [About the programming languages](http://codeforces.com/blog/entry/79)
+4. Slide 13:
+"Unlimited stack of ICPC": See J. Clevenger,
+[2018 ACM-ICPC World Finals Programming Environment](https://icpc.baylor.edu/xwiki/wiki/public/viewrev/worldfinals/programming-environment?rev=136.1).
+However this note has been removed, see Errata 3.
 4. Slide 15:
 "Ariane 5 crash":  See J. L. Lions, et. al.,
 [ARIANE 5 Flight 501 Failure](http://sunnyday.mit.edu/accidents/Ariane5accidentreport.html)
