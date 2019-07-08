@@ -26,6 +26,7 @@ moredelim={[is][keywordstyle]{@@}{@@}}}
 % english % 选上，会将图表等标题还原回英文标题
  ]{XDUstyle}
 
+\usepackage{ulem}
 
 \title{程序调试}
 \subtitle{Debugging}
@@ -162,8 +163,8 @@ moredelim={[is][keywordstyle]{@@}{@@}}}
 \begin{frame}{预防和排查}
 	\begin{itemize}
 		\item 绝对不要写死递归
-		\item ICPC 区域赛会调整系统栈空间限制，因此可以随便使用栈（除非
-			MLE）
+		\item \sout{ICPC 区域赛会调整系统栈空间限制，因此可以随便使用栈（除非
+			MLE）}
 			\begin{itemize}
 				\item Codeforces 调整到了 256MB
 				\item 然而大多数在线评测系统都没有调整
