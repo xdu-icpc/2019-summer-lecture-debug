@@ -145,7 +145,7 @@ moredelim={[is][keywordstyle]{@@}{@@}}}
 			\tiny（简老师 7 月 2 日讲了）
 			\normalsize
 		\item 为了更灵活地为堆和共享库分配内存，Linux 默认将栈空间限制在 8MB。
-		\item 如果栈的大小越过 8MB，内核会发送 \lstinline!SEGSEGV!
+		\item 如果栈的大小越过 8MB，内核会发送 \lstinline!SIGSEGV!
 			信号杀死进程
 		\item Windows 默认栈空间限制为 1MB
 	\end{itemize}
