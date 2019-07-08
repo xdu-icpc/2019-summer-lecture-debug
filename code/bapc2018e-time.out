@@ -1,0 +1,7 @@
+shell$ @@g++ bapc2018e.cc -O2@@
+shell$ @@time ./a.out < bapc2018e-data.txt@@
+965105033
+
+real	0m1.935s
+user	0m1.933s
+sys	0m0.000s

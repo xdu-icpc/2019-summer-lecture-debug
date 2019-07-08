@@ -1,0 +1,8 @@
+shell$ @@g++ -c -Wall -Wextra matrix_bug.cc@@
+matrix_bug.cc: In member function 'mat mat::operator*(const mat&) const':
+matrix_bug.cc:13:2: warning: no return statement in function returning non-void [-Wreturn-type]
+   13 |  }
+      |  ^
+matrix_bug.cc:4:27: warning: unused parameter 'rhs' [-Wunused-parameter]
+    4 |  mat operator*(const mat &rhs) const
+      |                ~~~~~~~~~~~^~~

@@ -1,0 +1,8 @@
+shell$ @@g++ -c -Wall -Wextra -Wconversion pow_mod_bug.cc@@
+pow_mod_bug.cc: In function 'int main()':
+pow_mod_bug.cc:11:10: warning: conversion from 'long long int' to 'int' may change value [-Wconversion]
+   11 |  pow_mod(a, b);
+      |          ^
+pow_mod_bug.cc:11:13: warning: conversion from 'long long int' to 'int' may change value [-Wconversion]
+   11 |  pow_mod(a, b);
+      |             ^

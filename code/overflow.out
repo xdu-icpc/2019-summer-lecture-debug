@@ -1,0 +1,4 @@
+shell$ @@g++ overflow.cc -fsanitize=undefined -g@@
+shell$ @@echo "100000 100000" | ./a.out@@
+overflow.cc:10:18: runtime error: signed integer overflow: 100000 * 100000 cannot be represented in type 'int'
+411821055

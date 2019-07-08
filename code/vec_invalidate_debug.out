@@ -1,0 +1,20 @@
+shell$ @@g++ vec_invalidate.cc -D_GLIBCXX_DEBUG@@
+shell$ @@./a.out@@
+/usr/include/c++/9.1.0/debug/safe_iterator.h:321:
+In function:
+    __gnu_debug::_Safe_iterator<_Iterator, _Sequence, _Category>& 
+    __gnu_debug::_Safe_iterator<_Iterator, _Sequence, 
+    _Category>::operator++() [with _Iterator = 
+    __gnu_cxx::__normal_iterator<int*, std::__cxx1998::vector<int, 
+    std::allocator<int> > >; _Sequence = std::__debug::vector<int>; 
+    _Category = std::forward_iterator_tag]
+
+Error: attempt to increment a singular iterator.
+
+Objects involved in the operation:
+    iterator "this" @ 0x0x7ffc71f534e0 {
+      type = __gnu_cxx::__normal_iterator<int*, std::__cxx1998::vector<int, std::allocator<int> > > (mutable iterator);
+      state = singular;
+      references sequence with type 'std::__debug::vector<int, std::allocator<int> >' @ 0x0x7ffc71f53540
+    }
+Aborted (core dumped)

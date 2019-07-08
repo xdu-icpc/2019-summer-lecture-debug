@@ -1,0 +1,3 @@
+shell$ @@g++ set_invalidate.cc@@
+shell$ @@./a.out@@
+Segmentation fault (core dumped)

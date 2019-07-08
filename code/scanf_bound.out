@@ -1,0 +1,3 @@
+shell$ @@g++ scanf_bound.cc -fsanitize=undefined@@
+shell$ @@echo wang9897 | ./a.out@@
+hello, wang9897

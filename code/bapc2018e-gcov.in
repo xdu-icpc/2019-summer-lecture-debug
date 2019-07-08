@@ -1,0 +1,5 @@
+g++ bapc2018e.cc -O2 -ftest-coverage -fprofile-arcs
+rm *.gcda -f
+./a.out < bapc2018e-data.txt
+gcov bapc2018e.cc > /dev/null
+head bapc2018e.cc.gcov -n20

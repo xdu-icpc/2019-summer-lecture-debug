@@ -1,0 +1,26 @@
+shell$ @@g++ bapc2018e.cc -O2 -ftest-coverage -fprofile-arcs@@
+shell$ @@rm *.gcda -f@@
+shell$ @@./a.out < bapc2018e-data.txt@@
+965105033
+shell$ @@gcov bapc2018e.cc > /dev/null@@
+shell$ @@head bapc2018e.cc.gcov -n20@@
+        -:    0:Source:bapc2018e.cc
+        -:    0:Graph:bapc2018e.gcno
+        -:    0:Data:bapc2018e.gcda
+        -:    0:Runs:1
+        -:    1:#include <bits/stdc++.h>
+        -:    2:using namespace std;
+        -:    3:
+        -:    4:const int M = 1'0000'0000'9;
+        -:    5:
+120120000:    6:int pow_mod(int a, int x)
+        -:    7:{
+120120000:    8:	if (!x)
+        -:    9:		return 1;
+116116000:   10:	long long t = pow_mod(a, x>>1);
+120120000:   11:	t = t * t % M;
+116116000:   12:	if (x&1)
+ 60058000:   13:		t = t * a % M;
+116116000:   14:	return t;
+        -:   15:}
+        -:   16:

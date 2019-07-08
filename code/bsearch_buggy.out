@@ -1,0 +1,18 @@
+shell$ @@g++ bsearch_buggy.cc -D_GLIBCXX_DEBUG@@
+shell$ @@./a.out@@
+/usr/include/c++/9.1.0/bits/stl_algo.h:2243:
+In function:
+    bool std::binary_search(_FIter, _FIter, const _Tp&) [with _FIter = int*; 
+    _Tp = int]
+
+Error: elements in iterator range [__first, __last) are not partitioned by 
+the value __val.
+
+Objects involved in the operation:
+    iterator "__first" @ 0x0x7fff6fb44358 {
+      type = int* (mutable iterator);
+    }
+    iterator "__last" @ 0x0x7fff6fb44350 {
+      type = int* (mutable iterator);
+    }
+Aborted (core dumped)
