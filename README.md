@@ -16,7 +16,7 @@ or unlimited.  So the corresponding note in the beamer is
 
 ## Beamer
 
-The beamer, with all errata fixed can be downloaded at
+The beamer, with all errata fixed can be downloaded
 [here](https://github.com/xdu-icpc/2019-summer-lecture-debug/releases/download/v2/beamer.pdf).
 
 ## Supplementary Material
