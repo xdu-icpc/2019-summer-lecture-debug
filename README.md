@@ -14,6 +14,11 @@ removed the note about stack limit.  It's not yet known if it would be limited
 or unlimited.  So the corresponding note in the beamer is
 [marked as deleted](https://github.com/xdu-icpc/2019-summer-lecture-debug/commit/3c843d17f515e2da117541a9f2b0eaf3da95c38c).
 
+## Beamer
+
+The beamer, with all errata fixed can be downloaded at
+[here](https://github.com/xdu-icpc/2019-summer-lecture-debug/releases/download/v2/beamer.pdf).
+
 ## Supplementary Material
 
 ### Program Source Code
