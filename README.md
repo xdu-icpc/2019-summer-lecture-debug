@@ -16,6 +16,14 @@ and use it under CC-BY 4.0 License.
 
 They can be found in the [code](https://github.com/xdu-icpc/2019-summer-lecture-debug/tree/master/code) directory.
 
+### Assertion
+
+Due to an oversight we forgot to discuss the usage of C `assert` macro.
+It's extremely useful to detect logical errors early.  It's also a hint to
+the people reading the code.  For example, you can put `assert(__gcd(a, M))`
+in the BSGS code library to prevent someone (maybe yourself) from misusing
+it.
+
 ### Reference
 
 1. Slide 6: 
