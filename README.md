@@ -61,6 +61,9 @@ GCC Bugzilla, [PR323](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=323)
 6. Slide 35-50:
 The tools are introduced:  Andrey Vihrov,
 [Catching silly mistakes with GCC](https://codeforces.com/blog/entry/15547)
+7. Slide 58:
+"BAPC 2018":  [Homepage](https://2018.bapc.eu/),
+[Codeforces Gym](https://codeforces.com/gym/102007)
 7. ISO/IEC JTC 1 SC 22 WG 14,
 [Programming Languages - C (Committee Draft N1570)](https://bf.mengyan1223.wang/assets/std/c1x-n1570.pdf)
 8. ISO/IEC JTC 1 SC 22 WG 21,
