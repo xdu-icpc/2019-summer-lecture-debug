@@ -13,6 +13,7 @@ and use it under CC-BY 4.0 License.
 removed the note about stack limit.  It's not yet known if it would be limited
 or unlimited.  So the corresponding note in the beamer is
 [marked as deleted](https://github.com/xdu-icpc/2019-summer-lecture-debug/commit/3c843d17f515e2da117541a9f2b0eaf3da95c38c).
+You may wish to test for the stack limit in ICPC Regional Warmups.
 
 ## Beamer
 
@@ -50,7 +51,7 @@ Software Engineering](https://www.amazon.com/Mythical-Man-Month-Software-Enginee
 4. Slide 13:
 "Unlimited stack of ICPC": See J. Clevenger,
 [2018 ACM-ICPC World Finals Programming Environment](https://icpc.baylor.edu/xwiki/wiki/public/viewrev/worldfinals/programming-environment?rev=136.1).
-However this note has been removed, see Errata 3.
+However this note has been removed in 2019, see Errata 3.
 4. Slide 15:
 "Ariane 5 crash":  See J. L. Lions, et. al.,
 [ARIANE 5 Flight 501 Failure](http://sunnyday.mit.edu/accidents/Ariane5accidentreport.html)
