@@ -19,6 +19,9 @@ a software":   See F. P. Brooks, Jr., [The Mythical Man-Month: Essays on
 Software Engineering](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959)
 2. Slide 10:
 "Basketball":  See S. Summit, [C FAQ Question 11.35](http://c-faq.com/ansi/experiment.html)
+3. Slide 10:
+"Undefined Behavior": Some useful articles can be found in
+[my blog](https://bf.mengyan1223.wang/blog/tags/undefined-behavior/).
 3. Slide 13:
 "Codeforces has 256MB stack":  See M. Mirzayanov,
 [About the programming languages](http://codeforces.com/blog/entry/79)
