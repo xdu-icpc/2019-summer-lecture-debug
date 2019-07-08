@@ -9,6 +9,10 @@ and use it under CC-BY 4.0 License.
 
 1. [The precision of `double` was presented "48 bits", which is wrong.](https://github.com/xdu-icpc/2019-summer-lecture-debug/commit/a534d3b5ac2044a2095ad1efccb464125b52df5a)
 2. [`SIGSEGV` was misspelled `SEGSEGV`.](https://github.com/xdu-icpc/2019-summer-lecture-debug/commit/ae40608f4c28eb276ff2c88ba55471229897a826)
+3. The [recent revision of ICPC Final Rule](https://icpc.baylor.edu/xwiki/wiki/public/view/worldfinals/programming-environment?viewer=changes&rev1=166.1&rev2=167.1)
+removed the note about stack limit.  It's not yet known if it would be limited
+or unlimited.  So the corresponding note in the beamer is
+[marked as deleted](https://github.com/xdu-icpc/2019-summer-lecture-debug/commit/3c843d17f515e2da117541a9f2b0eaf3da95c38c).
 
 ## Supplementary Material
 
