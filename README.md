@@ -14,11 +14,12 @@ removed the note about stack limit.  It's not yet known if it would be limited
 or unlimited.  So the corresponding note in the beamer is
 [marked as deleted](https://github.com/xdu-icpc/2019-summer-lecture-debug/commit/3c843d17f515e2da117541a9f2b0eaf3da95c38c).
 You may wish to test for the stack limit in ICPC Regional Warmups.
+4. One typo in asm\_stack.cc makes the stack size 4 or 8 times of expected.
 
 ## Beamer
 
 The beamer, with all errata fixed can be downloaded
-[here](https://github.com/xdu-icpc/2019-summer-lecture-debug/releases/download/v2/beamer.pdf).
+[here](https://github.com/xdu-icpc/2019-summer-lecture-debug/releases/download/v3/beamer.pdf).
 
 ## Supplementary Material
 
