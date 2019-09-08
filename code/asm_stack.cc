@@ -1,5 +1,5 @@
 #include <cstdlib>
-char *_s_t_a_c_k_[128 << 20];
+char _s_t_a_c_k_[128 << 20];
 int main()
 {
 	__asm volatile (
